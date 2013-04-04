@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Laboratorio1_4_2013/src"/>
+	<classpathentry kind="src" path="Laboratorio1_5_2013/src"/>
+	<classpathentry kind="lib" path="iic1103.jar"/>
+	<classpathentry kind="lib" path="Laboratorio1_4_2013/iic1103.jar"/>
+	<classpathentry kind="lib" path="Laboratorio1_5_2013/iic1103.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="Laboratorio1_5_2013/bin"/>
+</classpath>
