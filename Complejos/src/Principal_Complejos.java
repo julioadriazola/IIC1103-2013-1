@@ -9,7 +9,7 @@ public class Principal_Complejos {
 		Complejos A=new Complejos(0,0);
 		
 		int op=-1;
-		while(op==0)
+		while(op!=0)
 		{
 			op=io.pideUnEntero("---MENU---" +
 					"\n1-Sumar" +
@@ -17,7 +17,7 @@ public class Principal_Complejos {
 					"\n3-Multiplicar por..." +
 					"\n4-Dividir por..." +
 					"\n5-Restablecer" +
-					"\n\nOtro-Salir");
+					"\n\n0-Salir");
 			if(op==1)
 			{
 				A.Sumar(new Complejos(io.pideUnReal("Parte Real"),io.pideUnReal("Parte Imaginaria")));
